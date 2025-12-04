@@ -1,5 +1,7 @@
 Check ROS2 version: `printenv | grep -i ROS`
 
+
+
 Project Setup
 -------------
 Create work space: `mkdir -p <work_spcae_name>/src` \
@@ -7,7 +9,9 @@ Create package: `ros2 pkg create --build-type ament_cmake --license Apache-2.0 <
 Build package: `colcon build`, `colcon build --packages-select <package_name>` \
 Source the setup file: `source install/setup.bash`
 
-ROS2
+
+
+ROS2 Commands
 ----
 Start node: `ros2 run <package_name> <node_name>` \
 Check the executables: `ros2 pkg executables <package_name>` \
@@ -19,11 +23,14 @@ RCL: ROS Client Library \
 `ros2 lunch `: Starts many nodes at once.
 
 
+
 Network
 -------
 Install Zerotier: `curl -s https://install.zerotier.com | sudo bash` \
 Join network: `sudo zerotier-cli join <YOUR_NETWORK_ID>` \
 Check connection type: `sudo zerotier-cli peers`
+
+
 
 Additional Installation
 -----------------------
