@@ -22,4 +22,5 @@ RCL: ROS Client Library \
 Network
 -------
 Install Zerotier: `curl -s https://install.zerotier.com | sudo bash` \
-Join network: `sudo zerotier-cli join <YOUR_NETWORK_ID>`
+Join network: `sudo zerotier-cli join <YOUR_NETWORK_ID>` \
+Check connection type: `sudo zerotier-cli peers`
