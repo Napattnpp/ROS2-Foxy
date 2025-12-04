@@ -15,3 +15,5 @@ show list of topic: `ros2 topic list`
 
 -----
 RCL: ROS Client Library
+`ros2 start `: Starts one specific node.
+`ros2 lunch `: Starts many nodes at once.
