@@ -35,13 +35,11 @@ Check connection type: `sudo zerotier-cli peers`
 Additional Installation
 -----------------------
 Install trasnsport drivers: `git clone https://github.com/ros-drivers/transport_drivers.git -b foxy` \
-`sudo apt update` \
-`sudo apt install ros-foxy-sdl2-vendor ros-foxy-ackermann-msgs ros-foxy-teleop-twist-joy ros-foxy-serial-driver` 
 
 (Run once)
-Install ackermann: `sudo apt install ros-foxy-ackermann-msgs` \
-Install serial driver: `sudo apt install ros-foxy-serial-driver` \
-Install joy: `sudo apt install ros-foxy-joy` 
+`sudo apt update` \
+`sudo apt install ros-foxy-sdl2-vendor ros-foxy-ackermann-msgs ros-foxy-teleop-twist-joy ros-foxy-serial-driver` \
+Install joy: `sudo apt install ros-foxy-joy` \
 
 
 
